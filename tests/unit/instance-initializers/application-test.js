@@ -2,9 +2,9 @@ import { module, test } from 'qunit';
 import { setupTest } from 'ember-qunit';
 import Application from '@ember/application';
 import { run } from '@ember/runloop';
-import application from 'mir/instance-initializers/application';
-import applicationUtil from 'mir/utils/application';
-import destroyApp from 'mir/tests/helpers/destroy-app';
+import initialize from 'dummy/instance-initializers/application';
+import applicationUtil from 'dummy/utils/application';
+import destroyApp from '../../helpers/destroy-app';
 
 module('Unit | Instance Initializer | application', function(hooks) {
   setupTest(hooks);
@@ -24,7 +24,7 @@ module('Unit | Instance Initializer | application', function(hooks) {
   test('initialize sets the app instance', function(assert) {
     assert.expect(1);
 
-    application.initialize(this.appInstance);
+    initialize(this.appInstance);
 
     let result = applicationUtil.instance;
     let expected = this.appInstance;

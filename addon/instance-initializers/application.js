@@ -10,6 +10,5 @@ export function initialize(appInstance) {
 }
 
 export default {
-  name: 'application',
   initialize
 };
