@@ -1,0 +1,63 @@
+{
+  "name": "ember-i18n-changeset-validations",
+  "version": "0.0.1",
+  "description": "ember-i18n support for ember-changeset-validations messages",
+  "keywords": [
+    "ember-addon",
+    "ember-validation",
+    "ember-changeset",
+    "ember-changeset-validations",
+    "ember-i18n",
+    "ember-intl",
+    "i18n",
+    "intl",
+    "validation"
+  ],
+  "license": "MIT",
+  "author": "0xADADA (https://0xadada.pub)",
+  "directories": {
+    "doc": "doc",
+    "test": "tests"
+  },
+  "repository": "https://github.com/0xadada/ember-i18n-changeset-validations",
+  "scripts": {
+    "build": "ember build",
+    "lint:js": "eslint ./*.js addon addon-test-support app config lib server test-support tests",
+    "start": "ember serve",
+    "test": "ember try:each"
+  },
+  "dependencies": {
+    "ember-changeset-validations": "^1.2.10",
+    "ember-cli-babel": "^6.6.0"
+  },
+  "devDependencies": {
+    "broccoli-asset-rev": "^2.4.5",
+    "ember-cli": "~2.18.0",
+    "ember-cli-dependency-checker": "^2.0.0",
+    "ember-cli-eslint": "^4.2.1",
+    "ember-cli-htmlbars": "^2.0.1",
+    "ember-cli-htmlbars-inline-precompile": "^1.0.0",
+    "ember-cli-inject-live-reload": "^1.4.1",
+    "ember-cli-qunit": "^4.1.1",
+    "ember-cli-shims": "^1.2.0",
+    "ember-cli-sri": "^2.1.0",
+    "ember-cli-uglify": "^2.0.0",
+    "ember-disable-prototype-extensions": "^1.1.2",
+    "ember-export-application-global": "^2.0.0",
+    "ember-load-initializers": "^1.0.0",
+    "ember-resolver": "^4.0.0",
+    "ember-source": "~2.18.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-ember": "^5.0.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-prettier": "^2.4.0",
+    "loader.js": "^4.2.3",
+    "prettier": "^1.9.2"
+  },
+  "engines": {
+    "node": "^4.5 || 6.* || >= 7.*"
+  },
+  "ember-addon": {
+    "configPath": "tests/dummy/config"
+  }
+}
