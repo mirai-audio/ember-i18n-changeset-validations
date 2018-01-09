@@ -6,7 +6,7 @@ const i18n = application.instance.lookup('service:i18n');
 
 let messages = {};
 keys(defaultMessages).forEach(key => {
-  let lookupKey = `errors.validations.${key}`;
+  let lookupKey = `validations.${key}`;
   if (i18n.exists(lookupKey)) {
     messages[key] = i18n.t(lookupKey).toString(); // use the translation
   } else {

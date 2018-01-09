@@ -1,22 +1,24 @@
 <h2 id="title">Welcome to Ember</h2>
 
-<p>These are defined in both "en" and "es" locales.</p>
+<p>These are the raw translations as defined in the "es" locale.</p>
 <ol>
-  <li>{{t "validations.accepted"}}</li>
-  <li>{{t "validations.after"}}</li>
-  <li>{{t "validations.before"}}</li>
-  <li>{{t "validations.between"}}</li>
-</ol>
-<p>These are defined only in "en".</p>
-<ol>
-  <li>{{t "validations.blank"}}</li>
-  <li>{{t "validations.collection"}}</li>
-  <li>{{t "validations.confirmation"}}</li>
-  <li>{{t "validations.date"}}</li>
+  <li>validations.between: <code>{{t "validations.between"}}</code></li>
+  <li>validations.blank: <code>{{t "validations.blank"}}</code></li>
+  <li>validations.url: <code>{{t "validations.url"}}</code></li>
 </ol>
 
-<p>These are only in "es".</p>
-<ol>
-  <li>{{t "validations.accepted"}}</li>
-</ol>
+<p>Changeset validations (the changeset has 2 url errors)</p>
+<ul class="ma-ErrorsHandler-errors">
+  {{#each (get model "error.title.validation") as |errorKey|}}
+    <li class="help is-danger ma-ErrorsHandler-error">
+      {{errorKey}}
+    </li>
+  {{/each}}
+  {{#each (get model "error.url.validation") as |errorKey|}}
+    <li class="help is-danger ma-ErrorsHandler-error">
+      {{errorKey}}
+    </li>
+  {{/each}}
+</ul>
+
 {{outlet}}
