@@ -10,12 +10,12 @@
 <p>Changeset validations (the changeset has 2 url errors)</p>
 <ul class="ma-ErrorsHandler-errors">
   {{#each (get model "error.title.validation") as |errorKey|}}
-    <li class="help is-danger ma-ErrorsHandler-error">
+    <li data-test="title-error" class="help is-danger ma-ErrorsHandler-error">
       {{errorKey}}
     </li>
   {{/each}}
   {{#each (get model "error.url.validation") as |errorKey|}}
-    <li class="help is-danger ma-ErrorsHandler-error">
+    <li data-test="url-error" class="help is-danger ma-ErrorsHandler-error">
       {{errorKey}}
     </li>
   {{/each}}
