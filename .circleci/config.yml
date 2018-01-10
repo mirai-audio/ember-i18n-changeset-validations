@@ -1,0 +1,32 @@
+# circleci/config.yml
+version: 2
+
+jobs:
+  build:
+    docker:
+      - image: circleci/node:carbon-browsers
+
+    steps:
+      - checkout
+      - run:
+          name: Configure build environment
+          command: |
+            git config --global user.email "$CIRCLECI_EMAIL"
+            git config --global user.name "Circle CI Build Bot"
+      - restore_cache:
+          key: dependency-cache-{{ checksum "yarn.lock" }}
+      - run:
+          name: Install dependencies
+          command: |
+            yarn global add ember-cli
+            yarn
+      - save_cache:
+          key: dependency-cache-{{ checksum "yarn.lock" }}
+          paths:
+            - ./node_modules
+      - run:
+          name: Run tests
+          command: |
+            ./node_modules/ember-cli/bin/ember --version --verbose
+            yarn test
+            yarn coverage

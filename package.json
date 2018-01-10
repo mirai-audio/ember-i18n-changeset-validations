@@ -15,6 +15,7 @@
   ],
   "license": "MIT",
   "author": "0xADADA (https://0xadada.pub)",
+  "demoURL": "https://mirai-audio.github.io/ember-i18n-changeset-validations",
   "directories": {
     "doc": "doc",
     "test": "tests"
