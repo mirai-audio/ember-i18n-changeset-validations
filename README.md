@@ -3,7 +3,7 @@
 [![CircleCI](https://img.shields.io/circleci/project/github/mirai-audio/ember-i18n-changeset-validations.svg?style=flat-square)](https://circleci.com/gh/mirai-audio/ember-i18n-changeset-validations)
 [![Coveralls branch](https://img.shields.io/coveralls/mirai-audio/ember-i18n-changeset-validations/master.svg?style=flat-square)](https://coveralls.io/github/mirai-audio/ember-i18n-changeset-validations?branch=master)
 [![David](https://img.shields.io/david/dev/mirai-audio/ember-i18n-changeset-validations.svg?style=flat-square)](https://david-dm.org/mirai-audio/ember-i18n-changeset-validations?type=dev)
-[![Ember](https://img.shields.io/badge/Ember->=2.12-3.0-blue.svg?style=flat-square)](https://emberjs.com/)
+[![Ember](https://img.shields.io/badge/Ember->=2.12-blue.svg?style=flat-square)](https://emberjs.com/)
 
 _Adds support for ember-i18n to ember-changeset-validations_
 
