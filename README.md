@@ -54,6 +54,35 @@ export default {
 };
 ```
 
+For each locale (en & ja in this example), import the validations translation
+module into the main `ember-i18n` manifest, located in 
+`app/locales/<LANG_CODE>/translations.js`.
+
+e.g English translations manifest file.
+
+```javascript
+// app/locales/en/validations.js
+import validations from "./validations";
+// other imports
+
+export default {
+  // other translation objects
+  validations
+};
+```
+
+e.g. Japanese translations manifest file.
+```javascript
+// app/locales/ja/validations.js
+import validations from "./validations";
+// other imports
+
+export default {
+  // other translation objects
+  validations
+};
+```
+
 
 ## Installation
 
