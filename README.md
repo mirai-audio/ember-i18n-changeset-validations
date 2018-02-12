@@ -1,5 +1,7 @@
 # ember-i18n-changeset-validations
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mirai-audio/ember-i18n-changeset-validations.svg)](https://greenkeeper.io/)
+
 [![CircleCI](https://img.shields.io/circleci/project/github/mirai-audio/ember-i18n-changeset-validations/master.svg?style=flat-square)](https://circleci.com/gh/mirai-audio/ember-i18n-changeset-validations)
 [![Coveralls branch](https://img.shields.io/coveralls/mirai-audio/ember-i18n-changeset-validations/master.svg?style=flat-square)](https://coveralls.io/github/mirai-audio/ember-i18n-changeset-validations?branch=master)
 [![npm](https://img.shields.io/npm/v/ember-i18n-changeset-validations.svg)](https://www.npmjs.com/package/ember-i18n-changeset-validations)
