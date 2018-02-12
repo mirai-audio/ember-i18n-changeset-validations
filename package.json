@@ -31,7 +31,7 @@
   "dependencies": {
     "ember-changeset-validations": "^1.2.10",
     "ember-cli-babel": "^6.6.0",
-    "ember-data": "^2.18.0",
+    "ember-data": "^3.0.0",
     "ember-i18n": "^5.1.0"
   },
   "devDependencies": {
@@ -58,7 +58,7 @@
     "ember-source": "~2.18.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-ember": "^5.0.0",
-    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-node": "^6.0.0",
     "eslint-plugin-prettier": "^2.4.0",
     "loader.js": "^4.2.3",
     "prettier": "^1.10.2"
