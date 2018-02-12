@@ -1,10 +1,12 @@
 # ember-i18n-changeset-validations
 
+
 [![CircleCI](https://img.shields.io/circleci/project/github/mirai-audio/ember-i18n-changeset-validations/master.svg?style=flat-square)](https://circleci.com/gh/mirai-audio/ember-i18n-changeset-validations)
 [![Coveralls branch](https://img.shields.io/coveralls/mirai-audio/ember-i18n-changeset-validations/master.svg?style=flat-square)](https://coveralls.io/github/mirai-audio/ember-i18n-changeset-validations?branch=master)
 [![npm](https://img.shields.io/npm/v/ember-i18n-changeset-validations.svg)](https://www.npmjs.com/package/ember-i18n-changeset-validations)
 [![Ember](https://img.shields.io/badge/Ember->=2.12-blue.svg?style=flat-square)](https://emberjs.com/)
 [![Ember Observer Score](https://emberobserver.com/badges/ember-i18n-changeset-validations.svg)](https://emberobserver.com/addons/ember-i18n-changeset-validations)
+[![Greenkeeper badge](https://badges.greenkeeper.io/mirai-audio/ember-i18n-changeset-validations.svg)](https://greenkeeper.io/)
 [![David](https://img.shields.io/david/mirai-audio/ember-i18n-changeset-validations.svg?style=flat-square)](https://david-dm.org/mirai-audio/ember-i18n-changeset-validations)
 [![David](https://img.shields.io/david/dev/mirai-audio/ember-i18n-changeset-validations.svg?style=flat-square)](https://david-dm.org/mirai-audio/ember-i18n-changeset-validations?type=dev)
 
