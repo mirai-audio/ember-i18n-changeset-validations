@@ -55,7 +55,7 @@
     "ember-maybe-import-regenerator": "^0.1.6",
     "ember-native-dom-helpers": "^0.5.10",
     "ember-resolver": "^4.0.0",
-    "ember-source": "~2.18.0",
+    "ember-source": "~3.0.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-ember": "^5.0.0",
     "eslint-plugin-node": "^6.0.0",
