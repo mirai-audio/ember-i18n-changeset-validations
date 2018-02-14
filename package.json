@@ -1,6 +1,6 @@
 {
   "name": "ember-i18n-changeset-validations",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "ember-i18n support for ember-changeset-validations messages",
   "keywords": [
     "ember-addon",
