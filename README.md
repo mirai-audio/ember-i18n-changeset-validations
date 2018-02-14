@@ -7,8 +7,6 @@
 [![Ember](https://img.shields.io/badge/Ember->=2.12-blue.svg?style=flat-square)](https://emberjs.com/)
 [![Ember Observer Score](https://emberobserver.com/badges/ember-i18n-changeset-validations.svg)](https://emberobserver.com/addons/ember-i18n-changeset-validations)
 [![Greenkeeper badge](https://badges.greenkeeper.io/mirai-audio/ember-i18n-changeset-validations.svg)](https://greenkeeper.io/)
-[![David](https://img.shields.io/david/mirai-audio/ember-i18n-changeset-validations.svg?style=flat-square)](https://david-dm.org/mirai-audio/ember-i18n-changeset-validations)
-[![David](https://img.shields.io/david/dev/mirai-audio/ember-i18n-changeset-validations.svg?style=flat-square)](https://david-dm.org/mirai-audio/ember-i18n-changeset-validations?type=dev)
 
 _Adds support for ember-i18n to ember-changeset-validations_
 
@@ -101,10 +99,10 @@ export default {
 
 ## Running Tests
 
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember
+* `yarn test` (Runs `ember try:each` to test your addon against multiple Ember
   versions)
-* `ember test`
-* `ember test --server`
+* `ember test` Runs the test suite on the current Ember version
+* `ember test --server` Runs the test suite in "watch mode"
 
 
 ## Building
@@ -113,3 +111,8 @@ export default {
 
 For more information on using ember-cli, visit 
 [https://ember-cli.com/](https://ember-cli.com/).
+
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
