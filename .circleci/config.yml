@@ -28,5 +28,6 @@ jobs:
           name: Run tests
           command: |
             ./node_modules/ember-cli/bin/ember --version --verbose
+            yarn lint:js
             yarn test
             yarn coverage

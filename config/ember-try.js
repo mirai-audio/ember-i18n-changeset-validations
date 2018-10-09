@@ -1,6 +1,8 @@
 'use strict';
 
+/* eslint-disable node/no-unpublished-require */
 const getChannelURL = require('ember-source-channel-url');
+/* eslint-enable node/no-unpublished-require */
 
 module.exports = function() {
   return Promise.all([
@@ -32,6 +34,14 @@ module.exports = function() {
           npm: {
             devDependencies: {
               'ember-source': '~2.18.0'
+            }
+          }
+        },
+        {
+          name: 'ember-lts-3.4',
+          npm: {
+            devDependencies: {
+              'ember-source': '~3.4.0'
             }
           }
         },
