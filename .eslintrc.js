@@ -17,6 +17,7 @@ module.exports = {
     // node files
     {
       files: [
+        '.eslintrc.js',
         '.template-lintrc.js',
         'ember-cli-build.js',
         'index.js',
@@ -46,17 +47,9 @@ module.exports = {
         require('eslint-plugin-node').configs.recommended.rules,
         {
           // add your custom rules and overrides for node files here
+          'node/no-unpublished-require': 0
         }
       )
-    },
-
-    // test files
-    {
-      files: ['tests/**/*.js'],
-      excludedFiles: ['tests/dummy/**/*.js'],
-      env: {
-        embertest: true
-      }
     }
   ]
 };
