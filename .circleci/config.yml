@@ -3,16 +3,13 @@ version: 2
 
 jobs:
   build:
-    docker:
-      - image: circleci/node:carbon-browsers
+    docker:                              # CircleCI tags: https://circleci.com/docs/2.0/docker-image-tags.json
+      - image: circleci/node:10-browsers # Node tags: https://nodejs.org/en/download/releases/
+        environment:
+          JOBS: 1 # https://github.com/emberjs/ember.js/issues/15641
 
     steps:
       - checkout
-      - run:
-          name: Configure build environment
-          command: |
-            git config --global user.email "$CIRCLECI_EMAIL"
-            git config --global user.name "Circle CI Build Bot"
       - restore_cache:
           key: dependency-cache-{{ checksum "yarn.lock" }}
       - run:
