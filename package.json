@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "ember-changeset-validations": "^2.1.0",
-    "ember-cli-babel": "^7.7.3",
+    "ember-cli-babel": "^7.14.1",
     "ember-i18n": "^5.3.1"
   },
   "devDependencies": {
