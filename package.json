@@ -29,7 +29,7 @@
     "test": "COVERAGE=true ember try:each"
   },
   "dependencies": {
-    "ember-changeset-validations": "^2.1.0",
+    "ember-changeset-validations": "^3.3.2",
     "ember-cli-babel": "^7.7.3",
     "ember-i18n": "^5.3.1"
   },
